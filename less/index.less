@@ -1,0 +1,288 @@
+@import "base.less";
+
+.layout {
+  max-width: 650px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  > header {
+    max-width: 650px;
+    width: 100%;
+    padding-bottom: 5px;
+    display: flex;
+    z-index: 2;
+    //background-color: #aaa;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    .logo {
+      width: 80px;
+      height: 30px;
+      //background-color: 
+      background-image: url('../images/sprites.png');
+      background-position: 0 -105px;
+      background-size: 200px 200px;
+      background-clip: content-box;
+      background-origin: content-box;
+      padding:0 10px;
+    }
+    .searchbar {
+      flex: 1;
+      position: relative;
+      padding-top: 2px;
+      input{
+        //line-height: 30px;
+        height: 30px;
+        border-radius: 15px;
+        width: 100%;
+        padding: 0px 0px 0px 40px;
+
+      }
+      i{
+        background-image: url('../images/sprites.png');
+        background-position: -60px -108px;
+        background-size: 200px 200px;
+        //background-color: pink;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 5px;
+        left: 10px;
+      }
+    }
+
+    .login {
+        line-height: 30px;
+      padding-left: 10px;
+    }
+  }
+  > section {
+    //width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  > nav {
+    > ul {
+      display: flex;
+      padding: 10px;
+      flex-wrap: wrap;
+      text-align: center;
+      > li {
+        width: 25%;
+        float: left;
+        margin-bottom: 10px;
+        img {
+          display: inline-block;
+          width: 40px;
+          height: 40px;
+        }
+        span {
+          display: block;
+        }
+      }
+    }
+  }
+  > main {
+    //margin-top: 20px;?
+    padding: 0px 10px 10px;
+    > #section1 {
+      background-color: white;
+      .seckill-title {
+        //line-height: 30px;
+        img {
+          width: 20px;
+          height: 25px;
+        }
+        .seckill-name {
+          color: #f40;
+          line-height: 30px;
+        }
+        .seckill-time {
+          line-height: 30px;
+          span {
+            display: inline-block;
+            color: white;
+            background-color: black;
+            width: 16px;
+            line-height: 16px;
+            height: 16px;
+            text-align: center;
+          }
+        }
+        .seckill-more {
+          float: right;
+          padding-right: 5px;
+          line-height: 30px;
+        }
+      }
+      .seccontent {
+        ul {
+          display: flex;
+          text-align: center;
+          li {
+            float: left;
+            border-left: 1px solid #ccc;
+            img {
+              width:100%;
+            }
+            p{
+              span{
+                color: #f40;
+              }
+              del{
+                color: #ccc;
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+    > #section2{
+      //height: 300px;
+      margin-top: 20px;
+      //background-color: pink;
+      margin-bottom: 50px;
+      .section2-title{
+        height: 30px;
+        line-height: 30px;
+        padding-left: 15px;
+        position: relative;
+        border-bottom: 1px solid #ccc;
+        &::before{
+          content: '';
+          height: 14px;
+          display: block;
+          width: 0px;
+          position: absolute;
+          //line-height: 14px;
+          top:7px;
+          left: 5px;
+          border: 2px solid #f40;
+        }
+
+      }
+      .section2-content{
+        display: flex;
+        >div{
+          a{
+            display: block;
+          }
+          width: 50%;
+          img {
+            width: 100%;
+          }
+        }
+        .left{
+          border-right: 1px solid #ccc;
+          img {
+            padding-top: 2px;
+          }
+        }
+        .right{
+          .r-top{
+            border-bottom: 1px solid #ccc;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

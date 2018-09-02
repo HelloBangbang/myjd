@@ -1,0 +1,53 @@
+/* ����ȫ�ֱ��� */
+/* ��������ʽ�ŵ�base.less���� */
+* {
+  margin: 0px;
+  padding: 0px;
+  /* ��ֹ�߿�padding����ҳ���ȳ��ֹ����� */
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  color: #666;
+  text-decoration: none;
+  /*һ���ƶ������a�ĵ������  ͸���ͱ�ʾȥ��*/
+  -webkit-tap-highlight-color: transparent;
+}
+input {
+  border: none;
+  outline: none;
+  /*����ƶ���Ĭ�ϵı���ʽ*/
+  -webkit-appearance: none;
+}
+img {
+  /* ���ͼƬ3px�ļ�� */
+  vertical-align: middle;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+footer {
+  z-index: 10;
+  max-width: 650px;
+  position: fixed;
+  background-color: white;
+  bottom: 0px;
+  width: 100%;
+}
+footer > ul {
+  display: flex;
+}
+footer > ul > li {
+  flex: 1 1 auto;
+}
+footer > ul > li > a {
+  display: block;
+}
+footer > ul > li > a img {
+  width: 65px;
+  height: 50px;
+}
